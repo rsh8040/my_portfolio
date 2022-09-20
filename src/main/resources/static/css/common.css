@@ -17,6 +17,15 @@
     color: #453a33
 }
 
+.Header_navigation-menu__2Elgc a {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, .7);
+}
+.Header_navigation-menu__2Elgc a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
 .Header_Header__29pgS.Header_has-background-color__1tAzC .Header_content__4A1k6 .Header_navigation-menus__1y0cV>.Header_navigation-menu__2Elgc:hover,
 .Header_Header__29pgS.Header_has-background-color__1tAzC .Header_content__4A1k6 .Header_title__EwaWq:hover {
     color: #f4623a
@@ -150,8 +159,10 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background: -moz-linear-gradient(top, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/developer.jpg) 50% no-repeat;
-    background: linear-gradient(180deg, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/developer.jpg) 50% no-repeat;
+    background: -moz-linear-gradient(top, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/developer.jpg) 50%;
+    background: linear-gradient(180deg, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/developer.jpg) 50%;
+    /* background: -moz-linear-gradient(top, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/masthead.jpg) 50%;
+    background: linear-gradient(180deg, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/masthead.jpg) 50%; */
     /* background: -o-linear-gradient(top, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 90%), url(/images/masthead.jpg) 50% no-repeat; */
     background-size: cover;
     z-index: -1
