@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .Header_Header__29pgS {
     position: fixed;
     top: 0;
@@ -180,7 +193,7 @@
 }
 
 .Masthead_Masthead__3PNvE .Masthead_content__-86Ao .Masthead_title__56mjq {
-    font-family: Black Han Sans, sans-serif;
+    font-family: 'ONE-Mobile-POP';
     font-weight: 400;
     font-size: 4rem;
     color: #fff;
@@ -197,6 +210,7 @@
 }
 
 .Masthead_Masthead__3PNvE .Masthead_content__-86Ao .Masthead_description__l0Duh {
+    font-family: 'ONE-Mobile-Regular';
     margin: 0 auto 2rem;
     font-weight: 400;
     font-size: 1.25rem;
@@ -205,6 +219,7 @@
 }
 
 .Masthead_Masthead__3PNvE .Masthead_content__-86Ao .Masthead_find-out-more__3a_3R {
+    font-family: 'ONE-Mobile-Regular';
     display: inline-block;
     padding: 1rem 2rem;
     border: none;
@@ -224,6 +239,16 @@
     transition: background-color .2s ease-in-out;
     -webkit-transition: background-color .2s ease-in-out;
     -o-transition: background-color .2s ease-in-out
+}
+
+.Masthead_find-out-more__3a_3R a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Masthead_find-out-more__3a_3R a:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 @media(max-width:992px) {
@@ -251,7 +276,7 @@
 .SectionTitle_SectionTitle__3f_lU .SectionTitle_text__hWi93 {
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    font-family: Black Han Sans, sans-serif;
+    font-family: 'ONE-Mobile-POP';
     font-weight: 400;
     font-size: 3rem;
     line-height: 1.5
@@ -359,6 +384,7 @@
 }
 
 .AboutMe_AboutMe__1TCRF .AboutMe_content__2uEf5 .AboutMe_basic-infos__36Rb0 .AboutMe_basic-info-wrapper__3E-0e .AboutMe_basic-info__3sjma .AboutMe_field__5L2Lm .AboutMe_field-label__1B57s {
+    font-family: 'ONE-Mobile-Regular';
     margin-bottom: .5rem;
     font-weight: 700;
     font-size: 1.25rem
@@ -473,6 +499,7 @@
 }
 
 .Skills_Skills__30WZi .Skills_content__1b1wq .Skills_tech-stacks-container__3SGhh .Skills_tech-stacks__3WypH .Skills_title__3vC8g {
+    font-family: 'ONE-Mobile-POP';
     padding-bottom: .5rem;
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #ccc;
@@ -718,7 +745,7 @@
 
 .Projects_Projects__KtiS7 .Projects_content__2sdEt .Projects_projects__234Pm .Projects_project__3InD_ .Projects_title__20T9r {
     padding-bottom: .5rem;
-    font-family: Black Han Sans, sans-serif;
+    font-family: 'ONE-Mobile-POP';
     font-weight: 400;
     font-size: 2.5rem;
     color: #222;
@@ -726,6 +753,7 @@
 }
 
 .Projects_Projects__KtiS7 .Projects_content__2sdEt .Projects_projects__234Pm .Projects_project__3InD_ .Projects_period__1fnvs {
+    font-family: 'ONE-Mobile-Regular';
     margin-bottom: 2rem;
     font-weight: 400;
     font-size: 1rem;
@@ -820,6 +848,7 @@
 }
 
 .Projects_Projects__KtiS7 .Projects_content__2sdEt .Projects_projects__234Pm .Projects_project__3InD_ .Projects_info__1vwgW .Projects_descriptions__1DeYX .Projects_main-description__3lCkI {
+    font-family: 'ONE-Mobile-Regular';
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid #ccc;
@@ -853,6 +882,7 @@
 }
 
 .Projects_Projects__KtiS7 .Projects_content__2sdEt .Projects_projects__234Pm .Projects_project__3InD_ .Projects_info__1vwgW .Projects_descriptions__1DeYX .Projects_description__YKRcz .Projects_label__1B9QH {
+    font-family: 'ONE-Mobile-Regular';
     display: inline-block;
     vertical-align: top;
     width: 8.4rem;
@@ -1094,12 +1124,14 @@
 }
 
 .Career_Career__1AUMn .Career_content__1aikH .Career_companies__ko_TA .Career_company__1Kbfg .Career_info__3hL9g .Career_title__2qXEn {
+    font-family: 'ONE-Mobile-Regular';
     padding-bottom: .5rem;
     font-weight: 900;
     font-size: 1.5rem
 }
 
 .Career_Career__1AUMn .Career_content__1aikH .Career_companies__ko_TA .Career_company__1Kbfg .Career_info__3hL9g .Career_period__2lszl {
+    font-family: 'ONE-Mobile-Regular';
     padding-bottom: 1rem;
     font-weight: 400;
     font-size: 1.1rem;
@@ -1107,6 +1139,7 @@
 }
 
 .Career_Career__1AUMn .Career_content__1aikH .Career_companies__ko_TA .Career_company__1Kbfg .Career_info__3hL9g .Career_description__yM8tM {
+    font-family: 'ONE-Mobile-Regular';
     padding-bottom: 1rem;
     border-bottom: 1px solid #ccc
 }
@@ -1117,6 +1150,7 @@
 }
 
 .Career_Career__1AUMn .Career_content__1aikH .Career_companies__ko_TA .Career_company__1Kbfg .Career_info__3hL9g .Career_works__2zVJE .Career_works-title__2LC3- {
+    font-family: 'ONE-Mobile-Regular';
     margin: 2rem 0 1rem -1rem;
     font-size: 1rem;
     color: #222
@@ -1127,6 +1161,7 @@
 }
 
 .Career_Career__1AUMn .Career_content__1aikH .Career_companies__ko_TA .Career_company__1Kbfg .Career_info__3hL9g .Career_works__2zVJE .Career_works-period__2tMQx {
+    font-family: 'ONE-Mobile-Regular';
     margin: 0 0 1rem -1rem;
     font-size: .9rem;
     font-weight: 400;
@@ -1134,6 +1169,7 @@
 }
 
 .Career_Career__1AUMn .Career_content__1aikH .Career_companies__ko_TA .Career_company__1Kbfg .Career_info__3hL9g .Career_works__2zVJE li {
+    font-family: 'ONE-Mobile-Regular';
     margin-bottom: .5rem
 }
 
@@ -1246,4 +1282,31 @@
     .Footer_Footer__2N-mq .Footer_icons__39we2 .Footer_icon-wrapper__3cU9_:hover {
         opacity: 1
     }
+}
+
+.Projects_show-readme-btn__cuVoG {
+    font-family: 'ONE-Mobile-Regular';
+}
+
+#carouselExampleControls {
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+#carouselExampleControls_02 {
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+#carouselExampleControls_03 {
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.carousel .slide {
+    width: 500px;
+    height: 400px;
 }
