@@ -182,8 +182,8 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background: -moz-linear-gradient(top, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/developer.jpg) 50%;
-    background: linear-gradient(180deg, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/developer.jpg) 50%;
+    /* background: -moz-linear-gradient(top, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(images/developer.jpg) 50%; */
+    background: linear-gradient(180deg, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(../images/developer.jpg) 50%;
     /* background: -moz-linear-gradient(top, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/masthead.jpg) 50%;
     background: linear-gradient(180deg, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 70%), url(/images/masthead.jpg) 50%; */
     /* background: -o-linear-gradient(top, rgba(112, 93, 80, .8) 0, rgba(112, 93, 80, .8) 90%), url(/images/masthead.jpg) 50% no-repeat; */
