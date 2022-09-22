@@ -897,10 +897,11 @@
 }
 
 .Projects_Projects__KtiS7 .Projects_content__2sdEt .Projects_projects__234Pm .Projects_project__3InD_ .Projects_info__1vwgW .Projects_descriptions__1DeYX .Projects_description__YKRcz .Projects_value__148t7 {
+    font-family: 'ONE-Mobile-Regular';
     display: inline-block;
     vertical-align: bottom;
-    width: -moz-calc(100% - 8.4rem);
-    width: calc(100% - 8.4rem);
+    /* width: -moz-calc(100% - 8.4rem); */
+    width: calc(100% - 0.4rem);
     font-weight: 400;
     font-size: 1rem
 }
@@ -1309,4 +1310,29 @@
 .carousel .slide {
     width: 500px;
     height: 400px;
+}
+
+#yangsanMoreDetail {
+    font-family: 'ONE-Mobile-Regular';
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#haeundaeMoreDetail {
+    font-family: 'ONE-Mobile-Regular';
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#yeosuMoreDetail {
+    font-family: 'ONE-Mobile-Regular';
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.moreBox {
+    display: block;
 }
