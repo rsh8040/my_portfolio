@@ -68,6 +68,16 @@
     color: #fff
 }
 
+.Header_title__EwaWq a{
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, .7);
+}
+
+.Header_title__EwaWq a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
 .Header_Header__29pgS .Header_content__4A1k6 .Header_navigation-menus__1y0cV {
     float: right
 }
@@ -1335,4 +1345,8 @@
 
 .moreBox {
     display: block;
+}
+
+.Masthead_title__56mjq {
+    margin-bottom: 20px;
 }
